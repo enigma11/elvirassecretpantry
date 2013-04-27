@@ -10,12 +10,23 @@ a {
 
 .content {
 	padding-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .contact-container {
-	margin: 0 auto;
-	width: 40%;
-	ul {
-		display: inline-block;	
-	}
+	margin-right: auto;
+	margin-left: auto;
+	/*margin: 0px auto;*/
+	/*width: 20%;*/
+	float: none;
+	
 }
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;	
+}	

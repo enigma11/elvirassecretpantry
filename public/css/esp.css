@@ -1,3 +1,64 @@
+/*@import url(http://fonts.googleapis.com/css?family=Quicksand|Merriweather+Sans);*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Merriweather+Sans:300,400,700);
+
+body {
+	font-family: 'Quicksand', sans-serif;	
+	font-size: 12px;
+}
+
+.heading {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+}
+
+.subheading {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+	width: 50%;
+	float:none; 
+	margin: 0px auto;
+	text-align: center;
+}
+
+.intro {
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+	width: 60%;
+	float:none; 
+	margin: 0px auto;
+	margin-bottom:5%;
+}
+
+.placeholder {
+	float:none; 
+	margin: 0px auto;
+	margin: 5%;
+	text-align: center;
+	font-size: 1.7em;
+}
+
 a {
 	color: #34495e;
 	font-size: 12px;
@@ -12,15 +73,15 @@ a {
 	padding-top: 5%;
 	margin-right: auto;
 	margin-left: auto;
+	width:50%; 
+	float:none;
+	margin: 0px auto
 }
 
 .contact-container {
 	margin-right: auto;
 	margin-left: auto;
-	/*margin: 0px auto;*/
-	/*width: 20%;*/
 	float: none;
-	
 }
 
 ul {

@@ -11,3 +11,11 @@ a {
 .content {
 	padding-top: 5%;
 }
+
+.contact-container {
+	margin: 0 auto;
+	width: 40%;
+	ul {
+		display: inline-block;	
+	}
+}

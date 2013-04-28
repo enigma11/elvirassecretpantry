@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Merriweather+Sans:300,400,700|Cutive+Mono|Snippet);
 
-@media (max-width: 480px){
-	.intro {
-		width: 100%;
-	}
-}
-
-
 body {
 	font-family: 'Quicksand', sans-serif;	
 	font-size: 12px;
@@ -105,3 +98,23 @@ ul {
 li {
 	display: inline;	
 }	
+/*
+@media (max-width: 700px) {
+  body {
+  	background-color: green;
+  	width: 85%
+  }
+
+  .content {
+  		width:100%; 
+	}
+
+  .subheading {	
+	width: 100%;
+  }
+
+  .intro {
+	width: 100%;
+  }
+}
+*/

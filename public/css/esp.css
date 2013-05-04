@@ -1,13 +1,39 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700|Merriweather+Sans:300,400,700|Cutive+Mono|Snippet);
+@font-face {
+	font-family: Lobster;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/lobster/Lobster_1.3.otf');
+}
+
+@font-face {
+	font-family: Cabin;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/cabin/Cabin-Regular.otf');
+}
+
+@font-face {
+	font-family: Cabin;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/cabin/Cabin-Medium.otf');
+}
+
+@font-face {
+	font-family: Cabin;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/cabin/Cabin-SemiBold.otf');
+}
 
 body {
-	font-family: 'Quicksand', sans-serif;	
+	font-family: Cabin;
 	font-size: 12px;
 	background-color: #ECF0F1;
 }
 
 .heading {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Lobster;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 34px;
@@ -20,9 +46,9 @@ body {
 }
 
 .subheading {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: Cabin;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 24px;
 	text-transform: none;
 	text-decoration: none;
@@ -36,9 +62,8 @@ body {
 }
 
 .intro {
-	font-family: 'Quicksand', sans-serif;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 20px;
 	text-transform: none;
 	text-decoration: none;
@@ -98,23 +123,9 @@ ul {
 li {
 	display: inline;	
 }	
-/*
-@media (max-width: 700px) {
-  body {
-  	background-color: green;
-  	width: 85%
-  }
 
-  .content {
-  		width:100%; 
-	}
-
-  .subheading {	
-	width: 100%;
-  }
-
-  .intro {
-	width: 100%;
-  }
+div.link {
+	display:inline-block;
+	margin-right: 1%;
+	margin-left: 1%;
 }
-*/

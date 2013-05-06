@@ -1,98 +1,40 @@
 @font-face {
-	font-family: Lobster;
+	font-family: Gotham-Book;
 	font-style: normal;
 	font-weight: 400;
-	src: url('../fonts/lobster/Lobster_1.3.otf');
+	src: url('../fonts/gotham/Gotham-Book.ttf');
 }
 
-@font-face {
-	font-family: Cabin;
-	font-style: normal;
-	font-weight: 400;
-	src: url('../fonts/cabin/Cabin-Regular.otf');
-}
-
-@font-face {
-	font-family: Cabin;
-	font-style: normal;
-	font-weight: 500;
-	src: url('../fonts/cabin/Cabin-Medium.otf');
-}
-
-@font-face {
-	font-family: Cabin;
-	font-style: normal;
-	font-weight: 600;
-	src: url('../fonts/cabin/Cabin-SemiBold.otf');
-}
 
 body {
-	font-family: Cabin;
+	font-family: Gotham-Book;
 	font-size: 12px;
-	background-color: #ECF0F1;
+	color: white;
+	background-color: #678563;
 }
 
-.heading {
-	font-family: Lobster;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 34px;
-	text-transform: none;
-	text-decoration: none;
-	text-align: center;
-	letter-spacing: 0em;
-	word-spacing: 0em;
-	line-height: 1.4;
+
+.imageContainer {
+	margin: auto;
+	/*display: table-cell;*/
+	display: table;
+	vertical-align: middle;
 }
 
-.subheading {
-	font-family: Cabin;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 24px;
-	text-transform: none;
-	text-decoration: none;
-	letter-spacing: 0em;
-	word-spacing: 0em;
-	line-height: 1.4;
-	width: 50%;
-	float:none; 
-	margin: 0px auto;
-	text-align: center;
-}
-
-.intro {
-	font-style: normal;
-	font-weight: 100;
-	font-size: 20px;
-	text-transform: none;
-	text-decoration: none;
-	text-align: center;
-	letter-spacing: 0em;
-	word-spacing: 0em;
-	line-height: 1.4;
-	width: 60%;
-	float:none; 
-	margin: 0px auto;
-	margin-bottom:5%;
-}
 
 .placeholder {
 	float:none; 
-	margin: 0px auto;
 	margin: 5%;
 	text-align: center;
 	font-size: 1.7em;
-	color: black;
 }
 
 a {
-	font-family: 'Quicksand', sans-serif;	
 	color: #34495e;
 	font-size: 14px;
 }
 
-a:hover {
+a:fhover {
 	color: #BDC3C7;
 }
 
